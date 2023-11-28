@@ -245,6 +245,9 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
+  .video {
+    width: 100%;
+  }
   .navbar a:not(.active) {
     display: none;
   }
