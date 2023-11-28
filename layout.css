@@ -4,6 +4,10 @@
 body {
   margin: 0;
   font-family: 'Roboto';
+  position: relative
+}
+
+html, body {
   overflow-x: hidden;
 }
 
@@ -241,7 +245,7 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-  .navbar a:not(:first-child) {
+  .navbar a:not(.active) {
     display: none;
   }
 
