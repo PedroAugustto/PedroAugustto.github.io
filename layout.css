@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: 'Roboto';
+  overflow-x: hidden;
 }
 
 .elenco{
@@ -19,6 +20,9 @@ body {
   }
 }
 
+.card:hover {
+  background-color: #600623;
+}
 .card {
   position: relative;
   color: #f2f2f2;
@@ -40,20 +44,25 @@ body {
   text-align: center;
 }
 
-.sections1{
-  margin-top: 3%;
+.bannerTop{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section1 {
-  height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h1{
+  font-size: 100px;
+  margin: 0%;
+  color: white;
+  font-size: 74px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-shadow: 0 0 8px white;
 }
-.section4 {
-  height: 1000px;
+
+.sectionImg {
+  height: 900px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,20 +76,42 @@ body {
 
 
 #s1liberta {
-  background-image: url(img/laranjeiras.jpeg);
+  background-image: url(https://gzhstories.clicrbs.com.br/wp-content/uploads/2023/11/liberta.jpg);
+}
+#s2liberta {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/flu-boca1.jpg);
+}
+#s3liberta {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://4.bp.blogspot.com/-JWSynwzbptA/WiAyjRr1VqI/AAAAAAAAYjA/iEomJgXfXIwmHKOIb1FU1eSiYxHzS8g6QCLcBGAs/s1600/thiagosilva_pho.jpg);
 }
 #s4liberta {
-  background-image: url(img/flu-boca1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://meuflu.com.br/wp-content/uploads/2023/10/Fluminense-x-Boca-780x470.jpg);
 }
 #s1elenco {
   background-image: url(img/fundoElenco.jpg);
 }
 
-#s1homes {
-  width: 100%;
+#s1About {
+  background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1668265451683-52205234723_d40234d28c_k+%283%29.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#s2About {
+  background-image: url(img/laranjeiras.jpeg);
+}
+
+#s3About {
+  background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1516623306964-2.jpg);
+}
+
+#s4About {
+  background-image: url('https://s2-ge.glbimg.com/GlOy_1PhKQqrLW5gwaEKFp3QJ00=/0x0:1283x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/7/O/BA3WhNS429DWllGFR93A/papa.jpg');
+}
+
+#s5About {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sala_de_trof%C3%A9us_FFC_em_19_03_2019.jpg/1280px-Sala_de_trof%C3%A9us_FFC_em_19_03_2019.jpg');
 }
 
 #s1home {
@@ -139,15 +170,16 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
+  text-align: left;
   padding: 80px;
+}
+.section2 h2 {
+  text-align: center;
 }
 
 .section3 {
-  background-image: url(https://gzhstories.clicrbs.com.br/wp-content/uploads/2023/11/liberta.jpg);
-  height: 1000px;
-  background-attachment: fixed;
+  height: 850px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,10 +188,6 @@ body {
   justify-content: center;
   text-align: center;
   color: #f2f2f2;
-}
-
-h1 {
-  font-size: 100px;
 }
 
 h2 {
@@ -197,16 +225,22 @@ h2 {
   display: none;
 }
 
-#hinoFundo {
+/* #hinoFundo {
   position: fixed;
   bottom: 8px;
   right: 16px;
   padding: 10px;
   border: none;
   border-radius: 5%;
+} */
+
+@media screen and (max-width: 900px) { 
+  .bannerTop {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbar a:not(:first-child) {
     display: none;
   }
@@ -231,9 +265,9 @@ h2 {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }

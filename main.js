@@ -23,6 +23,4 @@ window.onload = function() {
     hino = document.getElementById("hinoFundo");
     console.log(Object.keys(hino));
     hino.volume = 0.01;
-    // element2 = document.getElementById("body");
-    // element3 = document.getElementById("color-picker");
 };
