@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Nunito+Sans:opsz@6..12&display=swap');
+
+
 body {
   margin: 0;
   font-family: 'Roboto';
@@ -37,6 +40,11 @@ body {
   text-align: center;
 }
 
+.sections1{
+  margin-top: 3%;
+  width: 100%;
+}
+
 .section1 {
   height: 600px;
   background-attachment: fixed;
@@ -68,11 +76,59 @@ body {
   background-image: url(img/fundoElenco.jpg);
 }
 
+#s1homes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #s1home {
   background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1668265451683-52205234723_d40234d28c_k+%283%29.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.body_home{
+  width: 100%;
+  height: 760px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1689938135114-WhatsApp+Image+2023-07-20+at+23.09.11.jpeg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.box_patrocinadores{
+  width: 24%;
+  height: 10%;
+  bottom: -7%;
+  position: absolute;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.grid_patrocinadores{
+  width: 60%;
+  bottom: -70%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+}
+
+.grid_patrocinadores img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .section2 {
