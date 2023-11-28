@@ -44,11 +44,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.section4 {
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
 
 #s1liberta {
   background-image: url(img/laranjeiras.jpeg);
 }
-
+#s4liberta {
+  background-image: url(img/flu-boca1.jpg);
+}
 #s1elenco {
   background-image: url(img/fundoElenco.jpg);
 }
@@ -70,7 +85,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 80px
+  padding: 80px;
 }
 
 .section3 {
