@@ -206,7 +206,7 @@ h4{
 }
 
 @media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {
+    .navbar a:not(.active) {
       display: none;
     }
   

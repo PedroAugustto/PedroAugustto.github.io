@@ -238,7 +238,6 @@ window.onload = function() {
         addCards()
     }
     element = document.getElementById("idNavbar");
-    console.log(document);
     hino = document.getElementById("hinoFundo");
     if(!!hino){
         hino.volume = 0.01;

@@ -22,6 +22,10 @@ html, body {
   .card {
     width: 100%;
   }
+
+  .section2 {
+    padding: 80px;
+  }
 }
 
 .card:hover {
@@ -191,7 +195,7 @@ h1{
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  padding: 150px 150px 150px 150px;
+  padding: 150px;
 }
 .section2 h2 {
   text-align: center;
