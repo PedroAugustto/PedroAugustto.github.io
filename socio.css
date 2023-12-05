@@ -109,8 +109,9 @@ body {
 
 .planos{
     width: 100%;
-    height: 800px;
+    height:fit-content;
     display: flex;
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #04502e, #8d1e26);
@@ -122,7 +123,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 90%;
     padding: 10px 0px;
     align-items: center;
     background: linear-gradient(to bottom, #04502e, #8d1e26);
