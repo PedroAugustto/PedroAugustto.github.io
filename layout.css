@@ -78,25 +78,40 @@ h1{
   color: white;
 }
 
+.imgTrio {
+  padding-top: 100px;
+}
+
+.legenda {
+  padding: 10px 0px 50px 0px;
+  color: gray;
+}
+
+#ultimaLegenda {
+  padding-bottom: 0px !important;
+}
 
 #s1liberta {
-  background-image: url(https://gzhstories.clicrbs.com.br/wp-content/uploads/2023/11/liberta.jpg);
+  background-image: url(img/s1liberta.jpg);
 }
 #s2liberta {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/flu-boca1.jpg);
 }
 #s3liberta {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://4.bp.blogspot.com/-JWSynwzbptA/WiAyjRr1VqI/AAAAAAAAYjA/iEomJgXfXIwmHKOIb1FU1eSiYxHzS8g6QCLcBGAs/s1600/thiagosilva_pho.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/s3liberta.jpg);
 }
 #s4liberta {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://meuflu.com.br/wp-content/uploads/2023/10/Fluminense-x-Boca-780x470.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/s4liberta.jpg);
+}
+#s5liberta {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/s5liberta.jpg);
 }
 #s1elenco {
   background-image: url(img/fundoElenco.jpg);
 }
 
 #s1About {
-  background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1668265451683-52205234723_d40234d28c_k+%283%29.jpg);
+  background-image: url(img/s1home.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,19 +122,19 @@ h1{
 }
 
 #s3About {
-  background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1516623306964-2.jpg);
+  background-image: url(img/s3about.jpg);
 }
 
 #s4About {
-  background-image: url('https://s2-ge.glbimg.com/GlOy_1PhKQqrLW5gwaEKFp3QJ00=/0x0:1283x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/7/O/BA3WhNS429DWllGFR93A/papa.jpg');
+  background-image: url(img/s4about.jpg);
 }
 
 #s5About {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sala_de_trof%C3%A9us_FFC_em_19_03_2019.jpg/1280px-Sala_de_trof%C3%A9us_FFC_em_19_03_2019.jpg');
+  background-image: url(img/s5about.jpg);
 }
 
 #s1home {
-  background-image: url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1668265451683-52205234723_d40234d28c_k+%283%29.jpg);
+  background-image: url(img/s1home.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +146,7 @@ h1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://s3.amazonaws.com/assets-fluminense/uploads%2F1689938135114-WhatsApp+Image+2023-07-20+at+23.09.11.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/121.jpeg);
   position: relative;
   display: flex;
   justify-content: center;
@@ -176,7 +191,7 @@ h1{
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  padding: 80px;
+  padding: 150px 150px 150px 150px;
 }
 .section2 h2 {
   text-align: center;
